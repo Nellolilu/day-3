@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 
+selector (selectors)
+css rule block
+   property :  value
+*/
+
+/* 
+special preferential treatment in css
+classes x ids
+*/
+
+.specialH1 {
+  background-color: seagreen;
+  color: white;
+}
+
+h1 {
+  color: saddlebrown;
+}
+
+h1 {
+  color: blue;
+}
+
+h2,
+h3,
+h4 {
+  background-color: salmon;
+}
+
+img {
+  height: 100mm;
+}
+
+/*
+px
+pts
+in
+cm
+mm
+
+
+relative units
+%
+v{values}
+vh
+vw
+em
+rem
+*/
+
+.hundred {
+  background-color: blue;
+  height: 20px;
+}
+
+.half {
+  height: 30px;
+  width: 50%;
+  background-color: red;
+}
+.quarter {
+  height: 30px;
+  width: 25%;
+  background-color: black;
+}
+
+.rest {
+  background-color: hotpink;
+  height: 100vh;
+  width: 70vw;
+}
+/* .two {
+  font-size: 2em;
+} */
+
+div {
+  font-size: 2rem;
+}
