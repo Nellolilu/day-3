@@ -117,38 +117,19 @@ log(arr);
 // log(newArr);
 
 for (let i = 0; i < arr.length; i++) {
-  //   if (i === 2) {
-  //     arr[i] = Infinity;
-  //   }
-  console.log(arr[i]);
-}
-log(arr);
-let sum = 0;
-for (let number of arr) {
-  sum += number;
-  //   console.log(`The ${number} is the inside the array`);
+  console.log(i, arr[i]);
 }
 
-log(`You have to pay ${sum} to acquire these items`);
-clear();
-function forEach(arr, callBackFunction) {
+for (let poppyHead of arr) {
+  console.log(poppyHead);
+}
+
+function forEach(callback) {
   for (let i = 0; i < arr.length; i++) {
-    callBackFunction(arr[i], i, arr);
+    callback(arr[i], i, arr);
   }
 }
 
-// forEach(arr, function (element, index, array) {
-//   log("|elementt", element, "indx", index, "array", array);
-// });
-
-let sumOfCart = 0;
-
-arr.forEach(function (element) {
-  sumOfCart += element;
-  //   log("|elementt", element);
+arr.forEach(function (poopyHead) {
+  console.log(poopyHead);
 });
-log(`You have to pay ${sumOfCart} to acquire these items`);
-
-// arr.forEach(function () {
-
-// })
